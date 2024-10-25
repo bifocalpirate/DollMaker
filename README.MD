@@ -1,11 +1,8 @@
 # DollMaker
 
-A simple dress up game, made from scratch using JS.
+A simple dress up game teaching players the opportunity cost of dressing a doll.
 
 ## Features
-  
-  - Drag & Drop the selected options to rearrange the order of options
-  - Load & Save from LocalStorage to work on multiple dolls
-  - Usage of HTML Canvas to draw images
-  - Save (finished) doll as an image
-  - Mobile responsive
+
+- I basically rewrote the repo I cloned it from, but used Angular and Tailwind.
+- Due to time constraints it's not like-for-like though.

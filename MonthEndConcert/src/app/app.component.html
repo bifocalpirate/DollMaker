@@ -8,9 +8,9 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <div class="flex flex-row">
 <div class="canvas" #canvas>
-    <img src="{{getImageLocation('body','0.png')}}" class="absolute top-0" />
+    <img src="{{getImageLocation('body','0.png')}}" class="absolute top-0 size" width="200px" height="100px" />
     
-    <img *ngFor="let img of layers" src="{{getImageLocation1(img.category,img.url)}}" class="absolute top-0"/>
+    <img *ngFor="let img of layers" src="{{getImageLocation1(img.category,img.url)}}" width="200px" height="100px" class="absolute top-0"/>
     
 
 </div>
