@@ -33,9 +33,9 @@ export class AppComponent implements OnInit
   addLayer(layerSrc: ImgData)
   {
     console.log(layerSrc)
-    let selected = this.layers.find(x => x.category === layerSrc.category && x.url === layerSrc.url)
+    let selected = this.layers.find(x => x.category === layerSrc.category)
     //delete previous layer
-    console.log(selected)
+    console.log('result of search: ', selected)
     if (selected)
     {
       console.log('item was found');
@@ -51,6 +51,7 @@ export class AppComponent implements OnInit
     this.layers.push(layerSrc);
     //charge the item
     this.currentBalance -= layerSrc.price;
+    console.log(this.layers)
   }
 
   getImageLocation(folder: string, code: string)
