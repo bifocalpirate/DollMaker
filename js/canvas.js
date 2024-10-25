@@ -1,3 +1,7 @@
+import price_data from "./prices.js";
+
+//import user from "./sample.json" assert { type: 'json' };
+
 const categories = document.querySelectorAll(".categories > a");
 const options = document.getElementById("optionsUl");
 const appliedOptions = document.getElementById("appliedOptions");
@@ -10,8 +14,9 @@ const switchDollBtn = document.getElementById("switchDollBtn");
 const saveDollsBtn = document.getElementById("saveDollsBtn");
 const createNewDollCard = document.getElementById("createNewDollCard");
 const deleteAllDollsCard = document.getElementById("deleteAllDollsCard");
-var modal = document.getElementById("modal");
 
+var modal = document.getElementById("modal");
+console.log(price_data[0]);
 var currentCategory;
 var toggleMultiselect;
 var dolls = [];
