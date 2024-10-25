@@ -1,0 +1,49 @@
+[
+  {
+    "category": "dress",
+    "items": [
+      { "code": "1.png", "price": 2.5 },
+      { "code": "2.png", "price": 3.5 },
+      { "code": "3.png", "price": 4.5 },
+      { "code": "4.png", "price": 5.5 },
+      { "code": "5.png", "price": 6.5 },
+      { "code": "6.png", "price": 7.5 },
+      { "code": "7.png", "price": 8.5 },
+      { "code": "8.png", "price": 9.5 }
+    ]
+  },
+  {
+    "category": "face",
+    "items": [
+      { "code": "0.png", "price": 8.5 },
+      { "code": "1.png", "price": 9.5 }
+    ]
+  },
+  {
+    "category": "hair",
+    "items": [
+      { "code": "1.png", "price": 8.5 },
+      { "code": "2.png", "price": 9.5 },
+      { "code": "3.png", "price": 3.5 },
+      { "code": "4.png", "price": 11.5 },
+      { "code": "5.png", "price": 6.5 }
+    ]
+  },
+  {
+    "category": "shoes",
+    "items": [
+      { "code": "1.png", "price": 8.5 },
+      { "code": "2.png", "price": 9.5 },
+      { "code": "3.png", "price": 3.5 },
+      { "code": "4.png", "price": 11.5 }
+    ]
+  },
+  {
+    "category": "accessory",
+    "items": [
+      { "code": "1.png", "price": 2.5 },
+      { "code": "2.png", "price": 6.5 },
+      { "code": "3.png", "price": 1.5 }
+    ]
+  }
+]

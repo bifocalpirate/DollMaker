@@ -2,3 +2,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .canvas {
+    border: 1px solid rgba(0, 0, 0, 0.107);
+    border-radius: var(--border-radius);
+    border: 0;
+    background-color: #fcdced;
+    width: 400px;
+  }
+
+  .card {
+    @apply text-xl text-black bg-accent rounded-sm shadow-black shadow-md m-2;
+  }
+
+  .card-header {
+    @apply bg-purple-900 text-lg text-white;
+  }
+
+  .card-footer {
+    @apply hover:text-red-500 bg-green-900 text-white;
+  }
+
+  .btn {
+    @apply border h-8 w-24 shadow-sm shadow-black drop-shadow active:scale-90 text-white;
+  }
+  .btn-primary {
+    @apply bg-primary;
+  }
+  .btn-secondary {
+    @apply bg-secondary;
+  }
+}
