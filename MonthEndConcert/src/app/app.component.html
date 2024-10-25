@@ -17,7 +17,7 @@
 <div>
 <app-card *ngFor="let c of prices" header="{{c.category}}"  class="cursor-pointer" >
         <div *ngFor="let img of c.items">
-        <app-card footer="{{img.price}}" *ngIf="c.category === current" >
+        <app-card footer="{{img.price|currency}}" *ngIf="c.category === current" >
             <img 
             (click)="addLayer({category:c.category, url:img.code, price:img.price})"
             class="mx-auto size-10  
@@ -30,7 +30,7 @@
 </app-card>
 </div>
 <div class="flex flex-col"><button class="btn btn-primary mb-1" *ngFor="let b of prices" (click)="setCurrent(b.category)">{{b.category}}</button>
-<div class="lg">Balance: {{currentBalance}}</div>
+<div class="lg">Balance: {{currentBalance|currency}}</div>
 </div>
 </div>
 
